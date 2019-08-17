@@ -1,3 +1,8 @@
+body{
+    color: rgb(0, 255, 221);
+    font-family: 'Arial', 'helvetica Neue', helvetica, sans-serif;
+}
+
 header {
     background-color: orange;
     padding: 30px;

@@ -3,11 +3,8 @@ body{
     font-family: 'Arial', 'helvetica Neue', helvetica, sans-serif;
 }
 
-header {
+header, .display-3, .jumbotron {
     background-color: orange;
-    padding: 30px;
-    margin: 20px;
-    width: 400px;
     font-size: 38px;
     color: white;
     text-align: center;

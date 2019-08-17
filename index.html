@@ -22,28 +22,33 @@
             <h1 class="display-3">Crystal Collector</h1>
         </div>
     </div>
-
+    <div class="container">
+        <div class="row">
+            <a>You will be given a random number at the start of the game.</a></br>
+            <a>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</a></br>
+            <a>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</a></br>
+            <a>The value of each crystal is hidden from you until you click on it.</a></br>
+            <a>Each time when the game starts, the game will change the values of each crystal.</a></br>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col" id=randiv>
+            <a>randomNumber</a></br></br>
+            <a id="randomNumber"></a>
+          </div>
+          <div class="col" id=aside>
+            <a id="wins"></a></br></br>
+            <a id="losses"></a></br>
+          </div>
+          <div class="col" id=randiv>
+            <a>Your total score is</a></br></br>
+            <a id="yourscore"></a>
+          </div>
+        </div>
+    </div>
 
 <div class="container">
- 
-    <div>
-        <a>You will be given a random number at the start of the game.</a></br>
-        <a>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</a></br>
-        <a>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</a></br>
-        <a>The value of each crystal is hidden from you until you click on it.</a></br>
-        <a>Each time when the game starts, the game will change the values of each crystal.</a></br>
-    </div>
-    <div class="row"> 
-        <section id="randomNumber">randomNumber</section>
-        
-        <aside>
-            <p id="wins"></p></br>
-            <p id="losses"></p></br>
-
-        </aside>
-    
-    </div>
-
     <div class="row" id="random-button">
         <div class="col-lg-0">
         <img id="ruby" src="assets/images/Ruby.jpg">
@@ -51,15 +56,6 @@
         <img id="sapphire" src="assets/images/sapphire.jpg">
         <img id="topaz" src="assets/images/topaz.jpeg">
         </div>
-    </div>
-
-    <div class="row">
-        <p>You total score is</p>
-
-    </div>
-
-    <div class="row">
-        <p id="yourscore"></p>
     </div>
 </div>
 

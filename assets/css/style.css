@@ -17,12 +17,14 @@ header {
       background-color: green;
       padding: 30px;
       margin: 20px;
+      color: white;
   }
   aside{
       float: left;
       background-color: blue;
       padding: 30px;
       margin: 20px;
+      color: white;
   }
   img{
       height: 100px;
